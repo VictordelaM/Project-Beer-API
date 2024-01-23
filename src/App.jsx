@@ -10,9 +10,10 @@ function App() {
     <>
       <Routes>
         <Route path= '/' element = {<Home/>}/>
-        <Route path= '/allBeers' element = {<AllBeers/>}/>
-        <Route path= '/singleBeer' element = {<SingleBeer/>}/>
-        <Route path= '/randomBeer' element = {<RandomBeer/>}/>
+        <Route path= '/allbeers' element = {<AllBeers/>}/>
+        <Route path= '/singlebeer' element = {<SingleBeer/>}/>
+        <Route path= '/randombeer' element = {<RandomBeer/>}/>
+        <Route path='/productlist/:dasIdVomUseParamUndDasKommtVomUrl' element={<ProductsDetails />} />
       </Routes>
     </>
   )
